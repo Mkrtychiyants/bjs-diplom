@@ -29,7 +29,7 @@ let getCurr = function () {
 
 getCurr();
 
-let getCurrInterval = setInterval(getCurr, 60000);
+setInterval(getCurr, 60000);
 
 
 let moneyMngr = new MoneyManager();

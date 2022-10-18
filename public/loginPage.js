@@ -17,7 +17,7 @@ user.registerFormCallback = function (data) {
             location.reload();
         }
         if (res.error) {
-            this.setLoginErrorMessage(res.error);
+            this.setRegisterErrorMessage(res.error);
         }
     })
 };
